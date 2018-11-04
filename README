@@ -1,7 +1,7 @@
 colorprofiles
 =============
 
-Version: 20181022
+Version: 20181105
 
 This package collects free ICC profiles that can be used by
 color profile aware applications/tools like the pdfx package,

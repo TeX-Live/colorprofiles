@@ -18,7 +18,7 @@
 %%
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{colorprofiles}
-  [2018/10/20 v1.0.0 color profiles for PDF/X and PDF/A support]
+  [2018/11/01 v1.0.1 color profiles for PDF/X and PDF/A support]
 %
 \begingroup
 
@@ -54,7 +54,7 @@
    \global\let\colorpro@cmyk@identifier\relax
    \global\let\colorpro@cmyk@registry\relax
   }
- \IfFileExists{colorpro@rgb@profile}{}{\colorpro@rgb@clear}
- \IfFileExists{colorpro@cmyk@profile}{}{\colorpro@cmyk@clear}
+ \IfFileExists{\colorpro@rgb@profile}{}{\colorpro@rgb@clear}
+ \IfFileExists{\colorpro@cmyk@profile}{}{\colorpro@cmyk@clear}
 \endgroup 
 \endinput
